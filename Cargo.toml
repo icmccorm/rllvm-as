@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 clap = { version = "4.4.6", features = ["derive"] }
-inkwell = { path = "./inkwell", features=["llvm17-0"] }
+inkwell = { path = "./inkwell", features=["llvm18-0"] }
 walkdir = "2.4.0"
